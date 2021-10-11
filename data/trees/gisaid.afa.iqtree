@@ -1,0 +1,291 @@
+IQ-TREE 2.0.7 built Jun 17 2020
+
+Input file name: data/gisaid.afa
+Type of analysis: tree reconstruction
+Random seed number: 214770
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 98 sequences with 29904 nucleotide sites
+Number of constant sites: 29689 (= 99.281% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 29689 (= 99.281% of all sites)
+Number of parsimony informative sites: 83
+Number of distinct site patterns: 599
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 0.3778
+  A-G: 0.6416
+  A-T: 0.5440
+  C-G: 0.1155
+  C-T: 2.1279
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2991
+  pi(C) = 0.1836
+  pi(G) = 0.1961
+  pi(T) = 0.3213
+
+Rate matrix Q:
+
+  A   -0.6099    0.1143    0.2074    0.2881
+  C    0.1863    -1.351   0.03733     1.127
+  G    0.3164   0.03494    -0.881    0.5297
+  T    0.2683    0.6439    0.3233    -1.235
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.9799
+Gamma shape alpha: 1.203
+
+ Category  Relative_rate  Proportion
+  0         0              0.9799
+  1         8.751          0.005019
+  2         26.42          0.005019
+  3         51.16          0.005019
+  4         112.9          0.005019
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -43574.9492 (s.e. 305.3383)
+Unconstrained log-likelihood (without tree): -60913.2546
+Number of free parameters (#branches + #model parameters): 203
+Akaike information criterion (AIC) score: 87555.8985
+Corrected Akaike information criterion (AICc) score: 87558.6872
+Bayesian information criterion (BIC) score: 89241.9652
+
+Total tree length (sum of branch lengths): 0.0110
+Sum of internal branch lengths: 0.0037 (33.4571% of tree length)
+
+WARNING: 45 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Australia_B_EPI_ISL_416411_2020.066' is drawn at root
+
++**Australia_B_EPI_ISL_416411_2020.066
+|
+|                          +--Australia_B_EPI_ISL_416515_2020.202
+|                       +--|
+|                       |  +**Australia_B_EPI_ISL_419799_2020.199
+|                    +**|
+|                    |  +-----------------Australia_B.29_EPI_ISL_419842_2020.208
+|                 +**|
+|                 |  +**Australia_B_EPI_ISL_426751_2020.23
+|              +--|
+|              |  +--------------Australia_B_EPI_ISL_426696_2020.224
+|           +**|
+|           |  |     +-----------Australia_B.35_EPI_ISL_419928_2020.219
+|           |  +-----|
+|           |        +--------Australia_B.35_EPI_ISL_419961_2020.221
+|        +--|
+|        |  +-----------Australia_B.39_EPI_ISL_420013_2020.227
+|     +**|
+|     |  |                 +-------Australia_B.31_EPI_ISL_521887_2020.221
+|     |  |              +**|
+|     |  |              |  +---Australia_B.31_EPI_ISL_426651_2020.216
+|     |  |           +--|
+|     |  |           |  +--Australia_B.31_EPI_ISL_419996_2020.224
+|     |  +-----------|
+|     |              |     +**Australia_B.31_EPI_ISL_419918_2020.216
+|     |              +-----|
+|     |                    |  +--------Australia_B.31_EPI_ISL_426722_2020.23
+|     |                    +**|
+|     |                       +-----------------Australia_B.31_EPI_ISL_426788_2020.224
++-----|
+|     |                               +-----Australia_B.40_EPI_ISL_416518_2020.205
+|     |                 +-------------|
+|     |                 |             +--Australia_B.40_EPI_ISL_419729_2020.216
+|     |              +--|
+|     |              |  +--Australia_B.40_EPI_ISL_426641_2020.21
+|     |           +**|
+|     |           |  +-----------Australia_B.40_EPI_ISL_419868_2020.21
+|     |        +--|
+|     |        |  +--------------Australia_B.40_EPI_ISL_419913_2020.216
+|     |     +--|
+|     |     |  +**Australia_B.61_EPI_ISL_426638_2020.208
+|     |  +**|
+|     |  |  +--Australia_B.61_EPI_ISL_419793_2020.199
+|     +--|
+|        +--Australia_B.61_EPI_ISL_419843_2020.208
+|
+|           +--Australia_B.3_EPI_ISL_419813_2020.205
+|  +--------|
+|  |        +--------------Australia_B.3_EPI_ISL_427042_2020.21
++--|
+   |                                +**Australia_A.1_EPI_ISL_419716_2020.21
+   |                             +**|
+   |                             |  +**Australia_A.1_EPI_ISL_419719_2020.208
+   |                          +--|
+   |                          |  |     +--Australia_A.1_EPI_ISL_468067_2020.221
+   |                          |  |  +**|
+   |                          |  |  |  +--------Australia_A.1_EPI_ISL_521899_2020.232
+   |                          |  +--|
+   |                          |     +**Australia_A.1_EPI_ISL_426644_2020.216
+   |                       +**|
+   |                       |  |  +-----------Australia_A.1_EPI_ISL_426672_2020.221
+   |                       |  +**|
+   |                       |     +--------Australia_A.1_EPI_ISL_419758_2020.191
+   |              +--------|
+   |              |        +--Australia_A.1_EPI_ISL_563817_2020.213
+   |           +**|
+   |           |  |                                +**Australia_A_EPI_ISL_419736_2020.18
+   |           |  |                             +**|
+   |           |  |                             |  +--Australia_A_EPI_ISL_419777_2020.194
+   |           |  |                          +--|
+   |           |  |                          |  +--------Australia_A_EPI_ISL_426942_2020.227
+   |           |  |     +--------------------|
+   |           |  |     |                    +--Australia_A_EPI_ISL_419747_2020.189
+   |           |  +-----|
+   |           |        +---------------------Australia_A_EPI_ISL_426693_2020.224
+   |     +-----|
+   |     |     |                          +**Australia_A.2.2_EPI_ISL_420036_2020.219
+   |     |     |                       +**|
+   |     |     |                       |  +--Australia_A.2.2_EPI_ISL_419986_2020.224
+   |     |     |                    +--|
+   |     |     |                    |  |  +**Australia_A.2.2_EPI_ISL_426659_2020.216
+   |     |     |                    |  +--|
+   |     |     |                    |     +--Australia_A.2.2_EPI_ISL_426732_2020.23
+   |     |     |              +-----|
+   |     |     |              |     |  +**Australia_A.2.2_EPI_ISL_426715_2020.23
+   |     |     |              |     +**|
+   |     |     |              |        |   +---Australia_A.2.2_EPI_ISL_426825_2020.23
+   |     |     |              |        +---|
+   |     |     |              |            +**Australia_A.2.2_EPI_ISL_426842_2020.23
+   |     |     +--------------|
+   |     |                    +-----------Australia_A.2_EPI_ISL_426647_2020.216
+   |  +**|
+   |  |  |                    +--Australia_B.1_EPI_ISL_419725_2020.216
+   |  |  |                 +**|
+   |  |  |                 |  |  +-----------Australia_B.1_EPI_ISL_419846_2020.208
+   |  |  |                 |  +**|
+   |  |  |                 |     +--------Australia_B.1_EPI_ISL_419994_2020.224
+   |  |  |              +**|
+   |  |  |              |  +-----------------Australia_B.1_EPI_ISL_426784_2020.224
+   |  |  |           +**|
+   |  |  |           |  |                          +-----Australia_B.1.1_EPI_ISL_419730_2020.216
+   |  |  |           |  |                       +**|
+   |  |  |           |  |                       |  +-----Australia_B.1.1.71_EPI_ISL_419748_2020.189
+   |  |  |           |  |                    +**|
+   |  |  |           |  |                    |  +**Australia_B.1.1_EPI_ISL_426671_2020.221
+   |  |  |           |  |           +--------|
+   |  |  |           |  |           |        |           +--------Australia_B.1.1_EPI_ISL_521897_2020.232
+   |  |  |           |  |           |        |        +**|
+   |  |  |           |  |           |        |        |  +**Australia_B.1.1_EPI_ISL_419945_2020.219
+   |  |  |           |  |           |        |     +**|
+   |  |  |           |  |           |        |     |  +--------------------Australia_B.1.1.1_EPI_ISL_427080_2020.224
+   |  |  |           |  |           |        |  +--|
+   |  |  |           |  |           |        |  |  +--Australia_B.1.1_EPI_ISL_419801_2020.202
+   |  |  |           |  |           |        +**|
+   |  |  |           |  |           |           |  +----------Australia_B.1.1_EPI_ISL_426670_2020.221
+   |  |  |           |  |           |           +--|
+   |  |  |           |  |           |              +--------Australia_B.1.1_EPI_ISL_426721_2020.23
+   |  |  |           |  |        +**|
+   |  |  |           |  |        |  |     +**Australia_B.1.23_EPI_ISL_420009_2020.227
+   |  |  |           |  |        |  +-----|
+   |  |  |           |  |        |        |  +**Australia_B.1.23_EPI_ISL_420010_2020.227
+   |  |  |           |  |        |        +--|
+   |  |  |           |  |        |           |  +**Australia_B.1.23_EPI_ISL_426864_2020.232
+   |  |  |           |  |        |           +--|
+   |  |  |           |  |        |              +--Australia_B.1.23_EPI_ISL_430472_2020.23
+   |  |  |           |  |     +**|
+   |  |  |           |  |     |  |        +--------Australia_B.1_EPI_ISL_419861_2020.21
+   |  |  |           |  |     |  |     +**|
+   |  |  |           |  |     |  |     |  +--Australia_B.1_EPI_ISL_419901_2020.213
+   |  |  |           |  |     |  |  +--|
+   |  |  |           |  |     |  |  |  |                 +--Australia_B.1_EPI_ISL_419880_2020.213
+   |  |  |           |  |     |  |  |  |              +**|
+   |  |  |           |  |     |  |  |  |              |  |                    +--Australia_B.1_EPI_ISL_480562_2020.227
+   |  |  |           |  |     |  |  |  |              |  |                 +**|
+   |  |  |           |  |     |  |  |  |              |  |                 |  +-----------------Australia_B.1_EPI_ISL_419953_2020.219
+   |  |  |           |  |     |  |  |  |              |  |              +**|
+   |  |  |           |  |     |  |  |  |              |  |              |  +--Australia_B.1_EPI_ISL_419906_2020.216
+   |  |  |           |  |     |  |  |  |              |  |           +**|
+   |  |  |           |  |     |  |  |  |              |  |           |  |  +-----Australia_B.1.319_EPI_ISL_419940_2020.219
+   |  |  |           |  |     |  |  |  |              |  |           |  +**|
+   |  |  |           |  |     |  |  |  |              |  |           |     +--Australia_B.1_EPI_ISL_426744_2020.227
+   |  |  |           |  |     |  |  |  |              |  |        +**|
+   |  |  |           |  |     |  |  |  |              |  |        |  |  +--Australia_B.1_EPI_ISL_419997_2020.224
+   |  |  |           |  |     |  |  |  |              |  |        |  +**|
+   |  |  |           |  |     |  |  |  |              |  |        |     |     +-----------------Australia_B.1.434_EPI_ISL_426678_2020.221
+   |  |  |           |  |     |  |  |  |              |  |        |     +-----|
+   |  |  |           |  |     |  |  |  |              |  |        |           +--Australia_B.1.434_EPI_ISL_426780_2020.224
+   |  |  |           |  |     |  |  |  |              |  |     +--|
+   |  |  |           |  |     |  |  |  |              |  |     |  |  +--------Australia_B.1_EPI_ISL_426654_2020.216
+   |  |  |           |  |     |  |  |  |              |  |     |  +--|
+   |  |  |           |  |     |  |  |  |              |  |     |     +--------Australia_B.1_EPI_ISL_426831_2020.23
+   |  |  |           |  |     |  |  |  |              |  |  +**|
+   |  |  |           |  |     |  |  |  |              |  |  |  |     +**Australia_B.1_EPI_ISL_419951_2020.219
+   |  |  |           |  |     |  |  |  |              |  |  |  +-----|
+   |  |  |           |  |     |  |  |  |              |  |  |        +--------------Australia_B.1.434_EPI_ISL_426805_2020.227
+   |  |  |           |  |     |  |  |  |              |  +**|
+   |  |  |           |  |     |  |  |  |              |     +--Australia_B.1.320_EPI_ISL_426665_2020.219
+   |  |  |           |  |     |  |  |  |           +**|
+   |  |  |           |  |     |  |  |  |           |  +--Australia_B.1_EPI_ISL_419806_2020.205
+   |  |  |           |  |     |  |  |  |        +**|
+   |  |  |           |  |     |  |  |  |        |  +-----------Australia_B.1_EPI_ISL_426809_2020.227
+   |  |  |           |  |     |  |  |  |     +**|
+   |  |  |           |  |     |  |  |  |     |  |   +------Australia_B.1_EPI_ISL_419742_2020.186
+   |  |  |           |  |     |  |  |  |     |  +---|
+   |  |  |           |  |     |  |  |  |     |      +--------Australia_B.1_EPI_ISL_426770_2020.224
+   |  |  |           |  |     |  |  |  |  +--|
+   |  |  |           |  |     |  |  |  |  |  +-----Australia_B.1_EPI_ISL_426807_2020.224
+   |  |  |           |  |     |  |  |  +--|
+   |  |  |           |  |     |  |  |     |  +--Australia_B.1.13_EPI_ISL_419897_2020.213
+   |  |  |           |  |     |  |  |     +--|
+   |  |  |           |  |     |  |  |        |      +---Australia_B.1_EPI_ISL_419916_2020.216
+   |  |  |           |  |     |  |  |        +------|
+   |  |  |           |  |     |  |  |               +----Australia_B.1_EPI_ISL_1055352_2020.232
+   |  |  |           |  |     |  +**|
+   |  |  |           |  |     |     +--------Australia_B.1_EPI_ISL_426791_2020.227
+   |  |  |           |  |  +**|
+   |  |  |           |  |  |  +--------Australia_B.1_EPI_ISL_419949_2020.219
+   |  |  |           |  +--|
+   |  |  |           |     |   +---Australia_B.1_EPI_ISL_419919_2020.216
+   |  |  |           |     +---|
+   |  |  |           |         +--------Australia_B.1_EPI_ISL_426969_2020.232
+   |  |  +-----------|
+   |  |              +-----------Australia_B.1_EPI_ISL_419830_2020.221
+   +**|
+      |                            +--------Australia_B.6.6_EPI_ISL_563832_2020.227
+      |                         +--|
+      |                         |  +---------Australia_B.6_EPI_ISL_426767_2020.224
+      |       +-----------------|
+      |       |                 +**Australia_B.6_EPI_ISL_436689_2020.224
+      |  +----|
+      |  |    |             +--------Australia_B.4.5_EPI_ISL_456589_2020.191
+      |  |    +-------------|
+      |  |                  +**Australia_B.4.5_EPI_ISL_419784_2020.194
+      +**|
+         +--Australia_B_EPI_ISL_419734_2020.087
+
+Tree in newick format:
+
+(Australia_B_EPI_ISL_416411_2020.066:0.0000009821,((((((((Australia_B_EPI_ISL_416515_2020.202:0.0000350467,Australia_B_EPI_ISL_419799_2020.199:0.0000009821):0.0000345613,Australia_B.29_EPI_ISL_419842_2020.208:0.0002112168):0.0000027025,Australia_B_EPI_ISL_426751_2020.23:0.0000009821):0.0000020450,Australia_B_EPI_ISL_426696_2020.224:0.0001760253):0.0000338735,(Australia_B.35_EPI_ISL_419928_2020.219:0.0001409933,Australia_B.35_EPI_ISL_419961_2020.221:0.0001063673):0.0000701250):0.0000019473,Australia_B.39_EPI_ISL_420013_2020.227:0.0001404061):0.0000354284,(((Australia_B.31_EPI_ISL_521887_2020.221:0.0000978125,Australia_B.31_EPI_ISL_426651_2020.216:0.0000517365):0.0000260714,Australia_B.31_EPI_ISL_419996_2020.224:0.0000350762):0.0000348310,(Australia_B.31_EPI_ISL_419918_2020.216:0.0000009821,(Australia_B.31_EPI_ISL_426722_2020.23:0.0001094866,Australia_B.31_EPI_ISL_426788_2020.224:0.0002152933):0.0000009821):0.0000704744):0.0001410318):0.0000020300,(((((((Australia_B.40_EPI_ISL_416518_2020.205:0.0000733974,Australia_B.40_EPI_ISL_419729_2020.216:0.0000387354):0.0001650128,Australia_B.40_EPI_ISL_426641_2020.21:0.0000356561):0.0000406225,Australia_B.40_EPI_ISL_419868_2020.21:0.0001404756):0.0000021972,Australia_B.40_EPI_ISL_419913_2020.216:0.0001758959):0.0000346519,Australia_B.61_EPI_ISL_426638_2020.208:0.0000020070):0.0000356812,Australia_B.61_EPI_ISL_419793_2020.199:0.0000346325):0.0000019840,Australia_B.61_EPI_ISL_419843_2020.208:0.0000359395):0.0000348732):0.0000705390,((Australia_B.3_EPI_ISL_419813_2020.205:0.0000357392,Australia_B.3_EPI_ISL_427042_2020.21:0.0001816202):0.0001065592,((((((((Australia_A.1_EPI_ISL_419716_2020.21:0.0000009821,Australia_A.1_EPI_ISL_419719_2020.208:0.0000009821):0.0000009821,((Australia_A.1_EPI_ISL_468067_2020.221:0.0000369545,Australia_A.1_EPI_ISL_521899_2020.232:0.0001067657):0.0000329481,Australia_A.1_EPI_ISL_426644_2020.216:0.0000024596):0.0000348887):0.0000350304,(Australia_A.1_EPI_ISL_426672_2020.221:0.0001421918,Australia_A.1_EPI_ISL_419758_2020.191:0.0001051000):0.0000019933):0.0000021750,Australia_A.1_EPI_ISL_563817_2020.213:0.0000357348):0.0001044746,((((Australia_A_EPI_ISL_419736_2020.18:0.0000009821,Australia_A_EPI_ISL_419777_2020.194:0.0000352550):0.0000026855,Australia_A_EPI_ISL_426942_2020.227:0.0001052249):0.0000355667,Australia_A_EPI_ISL_419747_2020.189:0.0000346911):0.0002446379,Australia_A_EPI_ISL_426693_2020.224:0.0002543260):0.0000778207):0.0000020188,((((Australia_A.2.2_EPI_ISL_420036_2020.219:0.0000009821,Australia_A.2.2_EPI_ISL_419986_2020.224:0.0000347087):0.0000026682,(Australia_A.2.2_EPI_ISL_426659_2020.216:0.0000009821,Australia_A.2.2_EPI_ISL_426732_2020.23:0.0000359234):0.0000356757):0.0000351125,(Australia_A.2.2_EPI_ISL_426715_2020.23:0.0000009821,(Australia_A.2.2_EPI_ISL_426825_2020.23:0.0000534061,Australia_A.2.2_EPI_ISL_426842_2020.23:0.0000009821):0.0000531607):0.0000020033):0.0000699074,Australia_A.2_EPI_ISL_426647_2020.216:0.0001433386):0.0001771200):0.0000708166,((((Australia_B.1_EPI_ISL_419725_2020.216:0.0000355889,(Australia_B.1_EPI_ISL_419846_2020.208:0.0001403574,Australia_B.1_EPI_ISL_419994_2020.224:0.0001056009):0.0000009821):0.0000298350,Australia_B.1_EPI_ISL_426784_2020.224:0.0002159105):0.0000059124,(((((((Australia_B.1.1_EPI_ISL_419730_2020.216:0.0000703521,Australia_B.1.1.71_EPI_ISL_419748_2020.189:0.0000701427):0.0000019963,Australia_B.1.1_EPI_ISL_426671_2020.221:0.0000009821):0.0000024926,((((Australia_B.1.1_EPI_ISL_521897_2020.232:0.0001074488,Australia_B.1.1_EPI_ISL_419945_2020.219:0.0000021249):0.0000021141,Australia_B.1.1.1_EPI_ISL_427080_2020.224:0.0002484730):0.0000309525,Australia_B.1.1_EPI_ISL_419801_2020.202:0.0000348463):0.0000350443,(Australia_B.1.1_EPI_ISL_426670_2020.221:0.0001334406,Australia_B.1.1_EPI_ISL_426721_2020.23:0.0001067606):0.0000412569):0.0000026741):0.0001065074,(Australia_B.1.23_EPI_ISL_420009_2020.227:0.0000027634,(Australia_B.1.23_EPI_ISL_420010_2020.227:0.0000024429,(Australia_B.1.23_EPI_ISL_426864_2020.232:0.0000019561,Australia_B.1.23_EPI_ISL_430472_2020.23:0.0000351299):0.0000346222):0.0000351312):0.0000697863):0.0000020563,(((Australia_B.1_EPI_ISL_419861_2020.21:0.0001076386,Australia_B.1_EPI_ISL_419901_2020.213:0.0000355534):0.0000019912,((((((Australia_B.1_EPI_ISL_419880_2020.213:0.0000347740,(((((((Australia_B.1_EPI_ISL_480562_2020.227:0.0000364341,Australia_B.1_EPI_ISL_419953_2020.219:0.0002112289):0.0000009821,Australia_B.1_EPI_ISL_419906_2020.216:0.0000350278):0.0000020273,(Australia_B.1.319_EPI_ISL_419940_2020.219:0.0000700695,Australia_B.1_EPI_ISL_426744_2020.227:0.0000360405):0.0000009821):0.0000009821,(Australia_B.1_EPI_ISL_419997_2020.224:0.0000351666,(Australia_B.1.434_EPI_ISL_426678_2020.221:0.0002180354,Australia_B.1.434_EPI_ISL_426780_2020.224:0.0000359751):0.0000700851):0.0000009821):0.0000021078,(Australia_B.1_EPI_ISL_426654_2020.216:0.0001058572,Australia_B.1_EPI_ISL_426831_2020.23:0.0001052667):0.0000359110):0.0000351036,(Australia_B.1_EPI_ISL_419951_2020.219:0.0000009821,Australia_B.1.434_EPI_ISL_426805_2020.227:0.0001764681):0.0000698116):0.0000019544,Australia_B.1.320_EPI_ISL_426665_2020.219:0.0000349772):0.0000020192):0.0000302963,Australia_B.1_EPI_ISL_419806_2020.205:0.0000350417):0.0000025645,Australia_B.1_EPI_ISL_426809_2020.227:0.0001408160):0.0000013295,(Australia_B.1_EPI_ISL_419742_2020.186:0.0000922358,Australia_B.1_EPI_ISL_426770_2020.224:0.0001054922):0.0000471384):0.0000024202,Australia_B.1_EPI_ISL_426807_2020.224:0.0000700944):0.0000350237,(Australia_B.1.13_EPI_ISL_419897_2020.213:0.0000350275,(Australia_B.1_EPI_ISL_419916_2020.216:0.0000537468,Australia_B.1_EPI_ISL_1055352_2020.232:0.0000673866):0.0000901471):0.0000346273):0.0000346656):0.0000335217,Australia_B.1_EPI_ISL_426791_2020.227:0.0001110276):0.0000017987):0.0000009821,Australia_B.1_EPI_ISL_419949_2020.219:0.0001056291):0.0000021181,(Australia_B.1_EPI_ISL_419919_2020.216:0.0000529800,Australia_B.1_EPI_ISL_426969_2020.232:0.0001077578):0.0000513825):0.0000346986):0.0000026788,Australia_B.1_EPI_ISL_419830_2020.221:0.0001409801):0.0001406263):0.0000019961,((((Australia_B.6.6_EPI_ISL_563832_2020.227:0.0001068054,Australia_B.6_EPI_ISL_426767_2020.224:0.0001155345):0.0000430502,Australia_B.6_EPI_ISL_436689_2020.224:0.0000019337):0.0002178579,(Australia_B.4.5_EPI_ISL_456589_2020.191:0.0001070783,Australia_B.4.5_EPI_ISL_419784_2020.194:0.0000019394):0.0001636075):0.0000593883,Australia_B_EPI_ISL_419734_2020.087:0.0000356350):0.0000022454):0.0000021002):0.0000350356);
+
+TIME STAMP
+----------
+
+Date and time: Mon Oct 11 10:06:05 2021
+Total CPU time used: 160.836 seconds (0h:2m:40s)
+Total wall-clock time used: 160.336 seconds (0h:2m:40s)
+
